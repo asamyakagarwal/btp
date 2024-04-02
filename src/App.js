@@ -1,0 +1,41 @@
+import { BrowserRouter as Router , Route , Routes } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home/Home';
+import Expert from './pages/Expert/Expert' ;
+import Login from './pages/Login/Login' ;
+import News from './pages/News/News' ;
+import Types from './pages/Types/Types' ;
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
+
+function App() {
+  return (
+    
+    <Router >
+      
+      <Navbar/>
+
+      <Routes>
+
+              <Route path='/' element={<Home/>}/>
+              <Route path='/expert' element={<Expert/>}/>
+              <Route path='/login' element={<Login/>}/>
+              <Route path='/news' element={<News/>}/>
+              <Route path='/types' element={<Types/>}/>
+        
+      </Routes>
+
+
+      <Footer/>
+
+     </Router>
+
+      
+      
+      
+  );
+}
+
+
+export default App;

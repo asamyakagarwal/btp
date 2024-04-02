@@ -1,0 +1,24 @@
+.carousel-container {
+  justify-content: space-between; /* Equal margins on left and right */
+  align-items: center; /* Centering vertically */
+  width: 40%; /* Set the width to 40% of the page size */
+  vertical-align: auto;
+
+  }
+  
+  .carousel-item {
+    width: auto; /* Allow items to resize horizontally */
+    height: auto; /* Allow items to resize vertically */
+    margin: 50px 100px; /* Adjust the margin as needed */
+    
+  }
+  
+  .legend {
+    text-align: center; /* Center text */
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the carousel */
+  }
+  
