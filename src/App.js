@@ -7,6 +7,7 @@ import News from './pages/News/News' ;
 import Types from './pages/Types/Types' ;
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Contact from './pages/Contact/Contact' ;
 
 
 function App() {
@@ -23,8 +24,10 @@ function App() {
               <Route path='/login' element={<Login/>}/>
               <Route path='/news' element={<News/>}/>
               <Route path='/types' element={<Types/>}/>
+              <Route path='/contact-page' element={<Contact/>}/>
         
       </Routes>
+
 
 
       <Footer/>

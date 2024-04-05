@@ -19,8 +19,6 @@ const navigation = useNavigate() ;    // important concept used here
           <a href="#expert" className="footer-link">Expert</a>
         </div>
 
-        <button onClick={()=> navigation("/types")}> go to types </button>
-
       </div>
     </footer>
   );

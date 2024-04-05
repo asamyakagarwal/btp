@@ -1,4 +1,28 @@
 .info {
-    width: auto ;
-    height: 300px ; 
-}
+    width: auto;
+    height: 300px;
+    margin: 20px 20px 100px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+    text-wrap: wrap;
+    border: none;
+    
+  }
+  
+  .info p {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: row;
+
+  }
+  
+  .info img {
+    margin: 0 10px; /* Margin from left and right */
+    border: none; /* Remove borders */
+    border-radius: 16px; /* Smooth the corners of the image */
+    flex-direction: row;
+  }
+
+  
