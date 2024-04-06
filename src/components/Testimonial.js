@@ -8,7 +8,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonial.css";
-import { RxAvatar } from "react-icons/rx";
 import { IoMdArrowBack , IoMdArrowForward  } from "react-icons/io";
 
 const PreviousBtn = (props) => {
