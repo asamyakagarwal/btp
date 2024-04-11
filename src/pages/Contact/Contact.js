@@ -1,37 +1,60 @@
 import React from "react";
+// import emailjs from 'emailjs-com';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
+
 import "./Contact.css";
 
 function Contact() {
+
+  const form = useRef() ;
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_7k58x1w', 'template_i9hzzwj', form.current, 'lbO3SvpNqfeVuLEeA')
+    
+    e.target.reset() ;
+      
+  };
+
   return (
-      <div className="contact-page">
-          <div className="contact-div">
+          <div className="contact-div"> 
+            <div className="contact-div__text">
+              <h1>Give us Feedback !! </h1>
+              <p>
+              "Short and sweet, your feedback's a treat. Help us grow,
+               make our journey complete."
+              </p>
+            </div>
 
             <div className="contact-div__form">
-               <form >
-                <label >
-                  Full Name <b>*</b>
-                </label>
+               <form ref={form} onSubmit={sendEmail}>
+
+                <div className="label" >Full Name <b>*</b></div>
+
                 <input type="text" placeholder='E.g: "Samyak Agarwal"' name="full_name"></input>
+  
+                <div className="label" >Email <b>*</b></div>
 
-                <label >
-                  Email <b>*</b>
-                </label>
                 <input type="email" placeholder="youremail@example.com" name="email" ></input>
+  
+                <div className="label" >Tell us about it <b>*</b></div>
 
-                <label >
-                  Tell us about it <b>*</b>
-                </label>
                 <textarea placeholder="Write Here.." name="message"></textarea>
-
+  
                 <button type="submit">
-                  Send Message
+                  {/* <IconMailOpened /> */}
+                  &nbsp; Send Message
                 </button>
+
+
               </form>
             </div>
 
           </div>
-        </div>
-    
+  
   );
 }
 

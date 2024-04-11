@@ -4,12 +4,12 @@
     background-image: url('../../assets/backImage.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 85vh;
     position: relative;
   }
   
   .overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay for the blur effect */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay for the blur effect */
     position: absolute;
     top: 0;
     left: 0;
@@ -19,17 +19,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: #ffcc99;
   }
   
   .quote {
-    font-size: 2rem;
+    font-size: 4rem;
+    padding-bottom: 20px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
   .additional-content {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
   

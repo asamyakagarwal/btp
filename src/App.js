@@ -8,6 +8,7 @@ import Types from './pages/Types/Types' ;
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact/Contact' ;
+import Lathe from './pages/Lathe/Lathe';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path='/news' element={<News/>}/>
               <Route path='/types' element={<Types/>}/>
               <Route path='/contact-page' element={<Contact/>}/>
+              <Route path='/lathe' element={<Lathe/>}/>
         
       </Routes>
 

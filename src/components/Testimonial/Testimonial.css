@@ -24,3 +24,10 @@
 .testimonial .slick-dots li {
   top: 15px;
 }
+
+.division {
+  background-color: #ffcc99;
+  color: #663300;
+  padding: 70px;
+  padding-bottom: 150px;
+}

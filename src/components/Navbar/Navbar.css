@@ -10,7 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #663300;
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -21,12 +21,13 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  background-color: #ffcc99;
 }
 
 .logo {
-  font-size: 1.8rem;
-  color: rgb(5, 5, 116);
-  padding-left: 20px;
+  width: 180px;
+  padding-left: 40px;
+  padding-bottom: 20px;
 }
 
 .hamburger {
@@ -39,7 +40,7 @@ a {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: black;
+  background-color: #663300;
 }
 
 .nav__link {
@@ -57,7 +58,8 @@ a {
 }
 
 .nav__link a:hover {
-  background-color: lightcoral;
+  background-color: #d57e27;
+  color: white;
 }
 
 .hide {
@@ -83,6 +85,29 @@ a {
     display: none;
   }
 }
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  background-color: #e9d2bd; /* Background color of dropdown */
+  border: 1px solid #ffcc99; /* Border color */
+  padding: 0.5rem;
+  z-index: 1; /* Ensure dropdown appears above other content */
+}
+
+li {
+  color: #ffcc99;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.nav__link:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+
+}
+
 
 
 

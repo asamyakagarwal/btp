@@ -13,7 +13,7 @@ const Carousel = () => {
   const navigation = useNavigate();
 
   return (
-    <div className='logos'>
+        <div className='logos'>
       <div className="logos-slide">
         <img onClick={()=> navigation("/types")} src={Image1} alt="Logo 1" />
         <img onClick={()=> navigation("/types")} src={Image2} alt="Logo 2" />
@@ -34,6 +34,7 @@ const Carousel = () => {
         <img onClick={()=> navigation("/types")} src={Image7} alt="Logo 7" />
       </div>
     </div>
+    
   )
 }
 

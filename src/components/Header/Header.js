@@ -1,17 +1,19 @@
-import React from 'react'
-import "./Header.css" ;
+import React from 'react';
+import './Header.css'; // Import your CSS file
 
 const Header = () => {
   return (
-    <div>
-        <div className="home-container">
-              {/* <div className="overlay">                               */}
-                {/* <h2 className="quote">Your Quote Here</h2>
-                <p className="additional-content">Additional content goes here</p> */}
-              {/* </div> */}
-            </div>
+    <div className="home-container">
+      <div className="overlay">
+        <div className="quote">
+        "One man's 'magic' is another man's engineering."
+        </div>
+        <div className="additional-content">
+        - Robert A. Heinlein
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

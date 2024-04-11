@@ -14,9 +14,10 @@ const navigation = useNavigate() ;    // important concept used here
       <div className="footer-content">
         <p className="copyright">All rights reserved &copy; 2024</p>
         <div className="footer-links">
-          <a href="#feedback" className="footer-link">Feedback</a>
+          <a href="#home" className="footer-link">Home</a>
+          <a href="#about" className="footer-link">About</a>
           <a href="#contact" className="footer-link">Contact Us</a>
-          <a href="#expert" className="footer-link">Expert</a>
+          <a href="#feedback" className="footer-link">Feedback</a>
         </div>
 
       </div>

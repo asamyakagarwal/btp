@@ -1,8 +1,8 @@
 import React from 'react';
-import Image2 from "../assets/test1.jpeg" ;
-import Image3 from "../assets/test2.jpeg" ;
-import Image1 from "../assets/test3.jpeg" ;
-import Image4 from "../assets/test4.jpeg" ;
+import Image2 from "../../assets/test1.jpeg" ;
+import Image3 from "../../assets/test2.jpeg" ;
+import Image1 from "../../assets/test3.jpeg" ;
+import Image4 from "../../assets/test4.jpeg" ;
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -29,19 +29,20 @@ const NextBtn = (props) => {
 };
 const Testimonial = () => {
   return (
-    <div
+    <div className='division'>
+        <div
       className="testimonial"
       style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
     >
       <div style={{ width: "50%", textAlign: "center" }}>
-        <h1 style={{ marginBottom: 20 }}>TESTIMONIALS</h1>
+        <h1 style={{ marginBottom: 20 }}>THE GREATS</h1>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
 
-          <Card img= {Image1} info = {" “It is not worth my while to manufacture in three countries only; but I can find it very worthwhile to make it for the whole world.”"} name ={"James Watt"} work = {"Mechanical Engineer"} />
+          <Card img= {Image1} info = {" “It is not worth my while to manufacture in three countries only; but I can find it very worthwhile to make it for the whole world.”"} name ={"Kate Gleason"} work = {"American engineer and businesswoman"} />
 
-          <Card img={Image2} info ={"“The day science begins to study non-physical phenomena, it will make more progress in one decade than in all the previous centuries of its existence.”"} name ={"Nikola Tesla"} work = {"Scientist"}/>
+          <Card img={Image2} info ={"“The day science begins to study non-physical phenomena, it will make more progress in one decade than in all the previous centuries of its existence.”"} name ={"James Watt"} work = {"Mechanical Engineer"}/>
 
-          <Card img={Image3} info = {"“What you call freedom is still nothing but choosing how to steer straight into the heart of what chooses you”"} name = {"Kate Gleason"} work = {"American engineer and businesswoman"}/>
+          <Card img={Image3} info = {"“What you call freedom is still nothing but choosing how to steer straight into the heart of what chooses you”"} name = {"Nikola Tesla"} work = {"Scientist"}/>
 
 
           <Card img={Image4} info = {"“My vision is a future for humanity where we will be completely free to pursue activities outside of our planet”"} name = {"Franklin Chang Diaz"} work = {"Physicist And Astronaut"}/>
@@ -50,6 +51,7 @@ const Testimonial = () => {
         </Slider>
       </div>
     </div>
+    </div> 
   );
 };
 
@@ -61,7 +63,8 @@ const Card = ({ img, info, name, work }) => {
         alignItems: "center",
         flexDirection: "column",
         textAlign: "center",
-        color: "gray",
+        color: "#663300",
+        fontSize: "20px"
       }}
     >
       <img

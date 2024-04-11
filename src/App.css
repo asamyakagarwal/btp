@@ -1,6 +1,6 @@
-*{
-    background-color:rgb(251,245,186);
-}
+/* *{
+    background-color: #ffcc99;
+} */
 
 body {
     overflow-x: hidden;
@@ -11,12 +11,12 @@ body {
     background-color: aqua;
     padding: 30px;
     text-align: center;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #663300;
 }
 
 .header > a {
     text-decoration: none;
-    color: black;
+    color: #663300;
     margin: 20px;
 }
 
@@ -42,5 +42,7 @@ body {
     width: 100%;
 }
 
+
+  
 
 
