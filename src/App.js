@@ -9,6 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact/Contact' ;
 import Lathe from './pages/Lathe/Lathe';
+import Accessories from './pages/Accessories/Accessories';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path='/types' element={<Types/>}/>
               <Route path='/contact-page' element={<Contact/>}/>
               <Route path='/lathe' element={<Lathe/>}/>
+              <Route path='/accessories' element={<Accessories/>}/>
         
       </Routes>
 

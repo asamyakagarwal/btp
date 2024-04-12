@@ -21,10 +21,12 @@ const LatheNav = () => {
       <div className={`nav__link2 ${isNavOpen ? '' : 'hide'}`}>
         <Link className='lathe-' >Operations</Link>
         <Link className='lathe-' >Types</Link>
-        <Link className='lathe-' >Accessories</Link>
+        <Link to='/accessories' className='lathe-' >Accessories</Link>
         <Link className='lathe-' >Cutting Fluids</Link>
         <Link className='lathe-' >Cutting Tools</Link>
         <Link className='lathe-' >Parameters</Link>
+        <Link className='lathe-' >Applications</Link>
+        <Link className='lathe-' >Safety Measures</Link>
       </div>
     </nav>
   );
