@@ -3,11 +3,12 @@ import ancient_lathe from '../../assets/ancient lathe.jpg';
 import roman_lathe from '../../assets/roman_lathe.png'
 import industrial_lathe from '../../assets/industrial_lathe.jpg'
 import cnc from '../../assets/modern_cnc.jpg'
+import './LatheHome.css'
 
 const LatheHome = () => {
     return (
       <div className="lathe-history-container">
-        <h1>The Lathe Machine: A Legacy of Innovation</h1>
+        <h1 className='head'>The Lathe Machine: A Legacy of Innovation</h1>
         <section className="history-section">
           <img src={ancient_lathe} alt="Ancient Egyptian Lathe" />
           <h2>Origins: The Two-Person Lathe (1300 BC)</h2>

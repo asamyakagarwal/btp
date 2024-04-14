@@ -13,19 +13,25 @@ import four_jaw from '../../assets/4jaw.jpg';
 import combination from '../../assets/combination.jpg';
 import magnetic from '../../assets/magnetic.jpg';
 import collet from '../../assets/collet.jpg';
+import LatheNav from '../../components/LatheNav/LatheNav';
 
 
 const Accessories = () => {
   return (
     <div>
+
+      <LatheNav/>
+
+
       <h1>Lathe Machine Accessories Overview</h1>
       <p>
         Welcome to our guide on lathe machine accessories! Below, you'll find a comprehensive overview of essential accessories used in lathe machining.
       </p>
 
-      <div className="accessory">
+      {/* angle plate */}
+      <div id="angle-plate" className="accessory">
         <div className="description">
-          <h2>Angle Plate</h2>
+          <h1>Angle Plate</h1>
           <img src={AnglePlate1} alt="Angle Plate" />
           <p>
             Made of cast iron, the angle plate boasts two precisely machined
@@ -44,9 +50,10 @@ const Accessories = () => {
         </div>
       </div>
 
-      <div className="accessory">
+      {/* catch plates and carriers */}
+      <div id="catch-plate" className="accessory">
         <div className="description">
-          <h2>Catch Plates or Carriers</h2>
+          <h1>Catch Plates or Carriers</h1>
           <img src={CatchPlate1} alt="Catch Plates or Carriers" />
           <p>
             Catch plates and carriers play a vital role in driving workpieces
@@ -63,9 +70,9 @@ const Accessories = () => {
       </div>
 
       {/* Centers */}
-      <div className="accessory">
+      <div id="centers" className="accessory">
         <div className="description">
-          <h2>Centers</h2>
+          <h1>Centers</h1>
           <img src={centre1} alt="Centers" />
           <img src={centre2} alt="Centers" />
           <p>
@@ -109,9 +116,9 @@ const Accessories = () => {
       </div>
 
       {/* Chucks */}
-      <div className="accessory">
+      <div id="chucks" className="accessory">
         <div className="description">
-          <h2>Chucks</h2>
+          <h1>Chucks</h1>
           <img src={chuck1} alt="Chucks" />
           <img src={chuck2} alt="Chucks" />
           <p>
@@ -148,10 +155,10 @@ const Accessories = () => {
       </div>
 
       {/* Face Plate */}
-      <div className="accessory">
+      <div id="faceplate" className="accessory">
         {/* <img src={FacePlateImage} alt="Face Plate" /> */}
         <div className="description">
-          <h2>Face Plate</h2>
+          <h1>Face Plate</h1>
           <p>
             A circular plate threaded at its centre with plain and T-slots, the faceplate is affixed to the lathe spindle's central threaded portion. It secures the workpiece using bolts and clamps within its slots. The faceplate is versatile, accommodating both regular and irregularly shaped workpieces that chucks or centres may not easily hold. This makes it a valuable tool for various machining tasks.
           </p>
@@ -159,10 +166,10 @@ const Accessories = () => {
       </div>
 
       {/* Lathe Dogs */}
-      <div className="accessory">
+      <div id="lathedogs" className="accessory">
         {/* <img src={LatheDogsImage} alt="Lathe Dogs" /> */}
         <div className="description">
-          <h2>Lathe Dogs</h2>
+          <h1>Lathe Dogs</h1>
           <p>
             A lathe carrier, also known as a lathe dog, is a device that clamps around the workpiece and allows the rotary motion of the machine’s spindle to be transmitted to the workpiece. It is used to hold workpieces securely for smooth and even turning.
           </p>
@@ -170,10 +177,10 @@ const Accessories = () => {
       </div>
 
       {/* Mandrels */}
-      <div className="accessory">
+      <div id="mandrels" className="accessory">
         {/* <img src={MandrelsImage} alt="Mandrels" /> */}
         <div className="description">
-          <h2>Mandrels</h2>
+          <h1>Mandrels</h1>
           <p>
             Mandrels are essential for holding rotating workpieces that have been previously drilled, stepped, turned, or bored, allowing for further machining operations. Various types of mandrels are available to suit specific workpiece requirements.
           </p>
@@ -181,10 +188,10 @@ const Accessories = () => {
       </div>
 
       {/* Rests */}
-      <div className="accessory">
+      <div id="rests" className="accessory">
         {/* <img src={RestsImage} alt="Rests" /> */}
         <div className="description">
-          <h2>Rests</h2>
+          <h1>Rests</h1>
           <p>
             Rests serve as support structures in the lathe to prevent the bending of long workpieces due to their own weight and vibrations. Positioned between the lathe's centres, they are essential when the workpiece's length is significantly longer than its diameter.
           </p>

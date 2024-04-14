@@ -1,71 +1,58 @@
 .navbar {
-    background-color: #663300;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: space-evenly; /* Evenly distribute items */
+  background-color: #663300; /* Optional background color */
+  padding: 10px 20px;
+}
+ 
+.nav-list {
+  display: flex;
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margin */
 }
 
-.lathe {
-    text-align: center;
-    text-decoration: underline;
-    color: #d57e27;
+.nav-item {
+  margin-right: 10px; /* Optional spacing between items */
 }
 
+.nav-link {
+  text-decoration: none ; /* Remove underline from links */
+  color: #dbb490 ;
+  padding: 10px 15px ;
+}
 
-.lathe- {
-    text-decoration: none;
-    color: #ffcc99;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  .nav__link2 {
-    position: fixed;
-    width: 94%;
-    top: 5rem;
-    left: 18px;
-    background-color: lightblue;
-    align-items: center;
-  }
-  
-  .nav__link2 a {
-    display: block;
-    text-align: center;
-  }
-  
-  .nav__link2 a:hover {
-    background-color: #d57e27;
-    color: white;
-  }
-
-  @media screen and (min-width: 600px) {
-    .nav__link2 {
-      display: block;
-      position: static;
-      width: auto;
-      margin-right: 20px;
-      background: none;
-    }
-  
-    .nav__link2 a {
-      display: inline-block;
-      padding: 15px 15px;
-    }
+.nav-link:hover {
+  background-color: #d57e27;
+  color: white; /* Optional hover effect */
 }
 
 .dropdown-menu {
-    position: absolute;
-    display: none;
-    background-color: #e9d2bd; /* Background color of dropdown */
-    border: 1px solid #ffcc99; /* Border color */
-    padding: 0.5rem;
-    z-index: 1; /* Ensure dropdown appears above other content */
-  }
-  
-  li {
-    color: #ffcc99;
-  }
-  
-  .dropdown-menu li {
-    list-style: none;
-  }
+  display: none; /* Hide dropdown menus initially */
+  position: absolute; /* Position dropdown below the link */
+  background-color: #e9d2bd ;
+  border-radius: 5px; /* Optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  list-style: none;
+  padding: 0.5rem;
+  border: #ffcc99;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px; /* Optional spacing between menu items */
+}
+
+.dropdown-menu a:hover {
+  background-color: #d57e27;
+  color: white;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #663300;
+  display: block; /* Make menu items take full width */
+  padding: 5px 10px;
+}
