@@ -1,12 +1,12 @@
 /* Home.css */
 
-.home-container {
+/* .home-container {
     background-image: url('../../assets/backImage.jpg');
     background-size: cover;
     background-position: center;
     height: 85vh;
     position: relative;
-  }
+  } */
   
   .overlay {
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay for the blur effect */

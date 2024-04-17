@@ -2,26 +2,27 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  margin: 2rem;
-  color: black;
+  
+  color: white;
   padding: 10rem 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  height: auto;
+ 
+  height: 100% ;
+  background-image: url("../../assets/feedback-img.jpeg");
 }
 
 .contact-div__text h1 {
   font-size: 5rem;
-  line-height: 3.3rem;
+  line-height: 5rem;
   margin-bottom: 1rem; /* Adjusted margin-bottom to create space */
+  margin-left: 2rem;
 }
 
 .contact-div__text p {
   font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
-  color: black; /* Changed color from gray to black */
+  color: white; /* Changed color from gray to black */
   line-height: 1.6;
-  margin-top: 4rem; /* Adjusted margin-top to create space */
+  margin-top: 3rem; /* Adjusted margin-top to create space */
   word-wrap: break-word;
 }
 
@@ -75,6 +76,7 @@
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  color: black;
   b {
     color: red;
   }

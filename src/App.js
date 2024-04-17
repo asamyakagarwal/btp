@@ -26,13 +26,12 @@ function App() {
     
     <Router >
       
-      <Navbar/>
 
       <Routes>
 
-              <Route path='/' element={<Home/>}/>
+              <Route path='/home' element={<Home/>}/>
               <Route path='/expert' element={<Expert/>}/>
-              <Route path='/login' element={<Login/>}/>
+              <Route path='/' element={<Login/>}/>
               <Route path='/news' element={<News/>}/>
               <Route path='/contact-page' element={<Contact/>}/>
               <Route path='/lathe' element={<Lathe/>}/>
@@ -55,7 +54,6 @@ function App() {
 
 
 
-      <Footer/>
 
      </Router>
 

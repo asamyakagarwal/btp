@@ -5,6 +5,8 @@ import emailjs from 'emailjs-com';
 
 
 import "./Contact.css";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 function Contact() {
 
@@ -20,6 +22,8 @@ function Contact() {
   };
 
   return (
+    <div>
+      <Navbar/>
           <div className="contact-div"> 
             <div className="contact-div__text">
               <h1>Give us Feedback !! </h1>
@@ -54,7 +58,8 @@ function Contact() {
             </div>
 
           </div>
-  
+          <Footer/>
+          </div>
   );
 }
 

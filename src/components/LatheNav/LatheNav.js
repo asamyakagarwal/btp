@@ -18,11 +18,11 @@ const LatheNav = () => {
         <li class="nav-item dropdown">
           <Link to="/types" class="nav-link">Types</Link>
           <ul class="dropdown-menu">
-            <li><a href="#speed">Speed Lathe</a></li>
+          <li><a href="#center">Center Lathe</a></li>
             <li><a href="#automatic">Automatic Lathe</a></li>
             <li><a href="#toolroom">Toolroom Lathe</a></li>
-            <li><a href="#turrent">Turrent Lathe</a></li>
-            <li><a href="#center">Center Lathe</a></li>
+            <li><a href="#turret">Turret Lathe</a></li>
+            <li><a href="#speed">Speed Lathe</a></li>
             <li><a href="#bench">Bench Lathe</a></li>
             <li><a href="#cnc">CNC Lathe</a></li>
             <li><a href="#spm">SPM Lathe</a></li>
@@ -59,7 +59,7 @@ const LatheNav = () => {
             <li><a href="#spinning">Spinning</a></li>
             <li><a href="#forming">Forming</a></li>
             <li><a href="#chamfering">Chamfering</a></li>
-            <li><a href="#miling">Miling</a></li>
+            <li><a href="#miling">Milling</a></li>
             <li><a href="#polishing">More....</a></li>
           </ul>
         </li>
@@ -81,7 +81,6 @@ const LatheNav = () => {
           <Link to="/parameters" class="nav-link">Parameters</Link>
           <ul class="dropdown-menu">
             <li><a href="#mt">Machine Time</a></li>
-            <li><a href="#ss">Spindle Speed</a></li>
             <li><a href="#doc">Depth of Cut</a></li>
             <li><a href="#cs">Cutting Speed</a></li>
             <li><a href="#np">Net Power</a></li>
@@ -93,9 +92,9 @@ const LatheNav = () => {
         <li class="nav-item dropdown">
           <Link to="/fluids" class="nav-link">Fluids</Link>
           <ul class="dropdown-menu">
+          <li><a href="#solublecutting">Soluble Cutting Oil</a></li>
             <li><a href="#semisenthetic">Semi Synthetic Oil</a></li>
             <li><a href="#straight">Straight Fluids</a></li>
-            <li><a href="#solublecutting">Soluble Cutting Oil</a></li>
           </ul>
         </li>
 
@@ -125,7 +124,7 @@ const LatheNav = () => {
 
 
         <li class="nav-item dropdown">
-          <Link to="/safety" class="nav-link">Safety</Link>
+          <Link to="/safety" class="nav-link">Precautions</Link>
         </li>
 
 

@@ -26,8 +26,8 @@
 }
 
 .division {
-  background-color: #ffcc99;
-  color: #663300;
-  padding: 70px;
-  padding-bottom: 150px;
+  background-image: url('../../assets/backImage.jpg');
+  background-color: #663300;
+  padding: 50px;
+  padding-bottom: 180px;
 }
