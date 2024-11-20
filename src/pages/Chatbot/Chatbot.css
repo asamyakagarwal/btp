@@ -1,0 +1,125 @@
+.chat-header {
+    background-color: #d47d26;
+    color: #412203;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    border-color: #663300;
+  
+    /* Centering */
+    margin: 0 auto;
+  }
+
+  .forbg {
+    background-color: #663300;
+  }
+  
+  .chat-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .chat-messages {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #ffcc99;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto 10px;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .user-message {
+    background-color: #663300;
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .bot-message {
+    background-color: #bc7a38;
+    color: white;
+    align-self: flex-start;
+    text-align: left;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    gap: 10px;
+    margin: 10px auto;
+    margin-bottom: 0;
+  }
+  
+  .chat-input input {
+    background-color: rgb(237, 199, 199);
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-input input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .chat-input button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chat-input button:hover {
+    background-color: rgb(13, 93, 32);
+  }
+  
+  .chat-input button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .chat-messages {
+      height: 300px;
+    }
+  
+    .chat-input input {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .chat-input button {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+    }
+  
+    .chat-header h1 {
+      font-size: 1.2rem;
+    }
+  }
+  

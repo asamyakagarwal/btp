@@ -1,0 +1,124 @@
+.team-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #663300; /* Light pastel background */
+    padding: 20px 0;
+}
+
+.topic-c {
+    margin: 40px 0;
+    color: #ffcc99; /* A rich blue color */
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-container__box {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Soft gradient background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 270px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-container__box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.peopleImg img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #2a5d84; /* Matching border color */
+    object-fit: cover;
+}
+
+.desc h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.desc p {
+    color: #666;
+    font-size: 16px;
+}
+
+.desc p:hover {
+    color: #2a5d84;
+}
+
+.book-banner {
+    background: #ff6f61; /* Bright coral color */
+    color: white;
+    position: relative;
+    padding: 50px 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.book-banner__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.book-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.book-banner .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.book-banner .text-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.book-banner .text-content span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-banner .text-content span h3 {
+    font-size: 24px;
+    margin: 0;
+}

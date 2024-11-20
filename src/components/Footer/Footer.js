@@ -17,7 +17,7 @@ const navigation = useNavigate() ;    // important concept used here
         <div className="footer-links">
           <Link to="/home" className="footer-link">Home</Link>
           <Link to="/home" className="footer-link">About</Link>
-          <Link to="#contact" className="footer-link">Contact Us</Link>
+          <Link to="/photos" className="footer-link">Contact-Us</Link>
           <Link to="/contact-page" className="footer-link">Feedback</Link>
         </div>
 

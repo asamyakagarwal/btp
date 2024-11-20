@@ -18,6 +18,9 @@ import CuttingTools from './pages/CuttingTools/CuttingTools';
 import Safety from './pages/Safety/Safety';
 import LatheTypes from './pages/LatheTypes/LatheTypes'
 import Parameters from './pages/Parameters/Parameters';
+import Calculator from './pages/Calculator/Calculator';
+import People from './pages/People/People';
+import ChatBot from './pages/Chatbot/Chatbot';
 
 
 
@@ -44,6 +47,9 @@ function App() {
               <Route path='/safety' element={<Safety/>}/>
               <Route path='/types' element={<LatheTypes/>}/>
               <Route path='/parameters' element={<Parameters/>}/>
+              <Route path='/calculator' element={<Calculator/>}/>
+              <Route path='/photos' element={<People/>}/>
+              <Route path='/chatbot' element={<ChatBot/>}/>
 
               
               

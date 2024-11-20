@@ -6,7 +6,7 @@ const Introduction = () => {
   return (
     <div className='information'>
       <div className='about'>
-        <h2 className='topic'>About Our Expert System for Machine Tools</h2>
+        <h2 className='topic'>About Expert System for Machine Tools</h2>
         <p className='subtopic'>
       Welcome to our platform dedicated to advancing your understanding and utilization of machine tools through cutting-edge technology and comprehensive resources. Our mission is to empower individuals and industries alike in harnessing the full operational potential of mechanical machineries.
     </p>

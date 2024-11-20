@@ -11,7 +11,7 @@ const Login = () => {
 
   useEffect(() => {
     const typed = new Typed(typedTextRef.current, {
-      strings: ["The LNMIIT Jaipur", "OUR WEBSITE"],
+      strings: ["Mechanical Machinery Operational Guide", "Our WEBSITE"],
       typeSpeed: 150,
       backSpeed: 150, 
       loop: true,
