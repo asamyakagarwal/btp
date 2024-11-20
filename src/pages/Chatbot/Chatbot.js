@@ -13,7 +13,7 @@ const ChatBot = () => {
   const messagesEndRef = useRef(null); // Create a ref for the end of the chat
 
   const API_URL = "https://api.openai.com/v1/chat/completions";
-  const API_KEY = "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";
+  const API_KEY = "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";
 
   const appendMessage = (sender, message) => {
     setMessages((prevMessages) => [...prevMessages, { sender, text: message }]);
